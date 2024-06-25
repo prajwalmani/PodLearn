@@ -39,7 +39,7 @@ def check_episode_exists(episode_id):
     conn.close()
 
     if row:
-        return row[2]
+        return row
     else:
         return None
     
